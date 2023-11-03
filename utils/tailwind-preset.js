@@ -33,6 +33,9 @@ const themesConfig = plugin(function ({ addComponents }) {
 
 module.exports = {
   theme: {
+    listStyleType: {
+      circle: 'circle',
+    },
     extend: {
       backgroundImage: {
         'gradient-conic':

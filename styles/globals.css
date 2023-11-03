@@ -10,8 +10,13 @@ h4,
 h5,
 h6 {
   font-family: var(--font-primary);
+  font-weight: normal;
 }
 
 body {
   font-family: var(--font-secondary);
+}
+
+a {
+  @apply underline text-blue-600 hover:text-blue-800 visited:text-purple-600;
 }
