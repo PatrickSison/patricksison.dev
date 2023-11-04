@@ -8,7 +8,7 @@ const ThemeSwitcher = () => {
           document.documentElement.classList.add('dark');
           localStorage.setItem('theme', 'dark');
         }}
-        className="flex items-center h-full dark:bg-primary flex justify-center align-center p-2 w-24 h-10 transition"
+        className="flex items-center h-full dark:bg-primary flex justify-center align-center p-2 w-48 h-10 transition"
       >
         use dark mode
       </button>
@@ -20,7 +20,7 @@ const ThemeSwitcher = () => {
           document.documentElement.classList.remove('dark');
           localStorage.setItem('theme', 'light');
         }}
-        className="flex items-center h-full bg-primary dark:bg-transparent flex justify-center align-center p-2 w-24 h-10 transition"
+        className="flex items-center h-full bg-primary dark:bg-transparent flex justify-center align-center p-2 w-48 h-10 transition"
       >
         use light mode
       </button>
