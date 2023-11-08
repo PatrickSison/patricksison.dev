@@ -31,7 +31,7 @@ export default function Index({ posts, globalData }) {
         {/* <hr />
         <Blog posts={posts} /> */}
       </main>
-      <Footer copyrightText={globalData.footerText} />
+      {/* <Footer copyrightText={globalData.footerText} /> */}
     </Layout>
   );
 }
